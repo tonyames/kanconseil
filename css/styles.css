@@ -35,22 +35,22 @@ h2::before{
 	display: none;
 }
 
-#hero-headings .slick-slide:nth-of-type(0){
+#hero-headings .slick-slide:nth-of-type(1),{
 
 	color: #07aa59 !important;
 }
 
-#hero-headings .slick-slide:nth-of-type(1){
+#hero-headings .slick-slide:nth-of-type(2),{
 
 	color: #0191ff !important;
 }
-#hero-headings .slick-slide:nth-of-type(3){
+#hero-headings .slick-slide:nth-of-type(3),{
 
 	color: #ff0f0f !important;
 }
-#hero-headings .slick-slide:nth-of-type(4){
+#hero-headings .slick-slide:nth-of-type(4),{
 
-	color: #888888  !important;
+	color: #ffff  !important;
 }
 
 .navbar-shrink
@@ -93,6 +93,9 @@ h2::before{
 .team-profile {
 
 	width: 200px;
+	height: 220px;
+	position: relative;
+	z-index: 1
 }
 
 .team-content-wrapper {
@@ -100,13 +103,24 @@ h2::before{
     background: #E7E4E4;
     position: relative;
     top: -80px;
-    z-index: -1;
+    z-index: 0;
     height: 300px;
     width: 280px;
     margin: auto;
 }
 
+.team-content {
+	position: relative;
+	top: 100px;
+}
+
 .team-content h5 {
+
+	position: relative;
+	top: 40px;
+}
+
+.team-content button {
 
 	position: relative;
 	top: 40px;
