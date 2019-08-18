@@ -28,26 +28,27 @@
   <![endif]-->
 
   <body id="page-top">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top mt-4" id="mainNav">
+    <header class="">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top mt-4" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <img src="img/logo/kan_logo_red.png" style="width: 120px;"></a>
+                <img src="img/logo/kan_logo_red.png" style="width: 150px;"></a>
 
                 <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link section-heading" href="#about">A PROPOS</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#activity">ACTIVITES</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#team">EQUIPE</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">A propos</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#activity">Activites</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#team">Equipe</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <header class="text-center text-white d-flex" style="background-image: url('./img/hero.jpg');background-size: cover;background-position: center;background-repeat: no-repeat;height: 100vh;">
-        <div style="background-color: #030032;height: 100vh;width: 100%;position: absolute;opacity: 0.64;"></div>
+      </nav>
+      <div class="hero text-center text-white d-flex">
+        <div class="hero__overlay"></div>
         <div class="container d-flex align-items-center">
             <div class="row d-flex">
                 <div class="col text-left" id="hero-headings">
@@ -58,282 +59,286 @@
                 </div>
             </div>
         </div>
+      </div>    
     </header>
-    <section id="about" class="bg-white mt-5 mb-5">
-        <div class="container text-dark ">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="section-heading mt-5 mb-5">QUI SOMMES NOUS ?</h2>
-                    <div class=" col col-md-6 text-justify">
-                      <p><br><b>Kan Conseil</b>  est un cabinet spécialisé dans l’ingénierie financière des PME et la structuration financière des projets (Privé, Public et PPP). Nous accompagnons les entreprises privées, les organismes publics et les projets dans toutes les étapes de leurs opérations capitalistiques et financières. 
-                      Notre objectif : Vous permettre de réaliser votre projet ! Nous concevons des montages sur mesure et déployons nos expertises en Audit, conseil, structuration de projet et Mobilisation de ressources pour accompagner vos projets, de l’idée à la réalisation.
-                      .</p>
-                    </div>    
+    <main class="page-content">
+      <section id="about" class="">
+          <div class="container-fluid text-dark">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 offset-md-1">
+                  <h2 class="section-heading mt-5 mb-5 pt-5">QUI SOMMES NOUS ?</h2>
+                    <p class="top-heading  text-justify pr-4">Kan Conseil est un Cabinet spécialisé dans l’ingénierie financière des PME et la structuration financière des projets (Privé, Public et PPP)<br><br>
+                    </p> 
                 </div>
-            </div>
-        </div>        
-    </section>
-    <section id="activity" class="text-white mt-5 mb-5 pb-5 pt-5" style="background-color: #030032;">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-12 mx-auto">
-              <h2 class="text-white section-heading mt-5 mb-5" style="color: #acacac;">NOS ACTIVITES </h2>
-            </div>
-            </div>
-            <div class="row  activities text-justify">
-                <div class="col-md-6 col-lg-6 ">
-                    <div class="mx-auto service-box mt-5">
-                      <h4 class="mb-5 mt-5" style="color:  #07aa59;">Levées de fonds et financements<br></h4>
-                        <div>
-                          <ul>
-                            <li>Accompagnement dans le processus de levée de fonds, d’ouverture ou de réorganisation du capital</li>
-                            <li>Accompagnement dans le processus d’acquisition, de cession ou rapprochement d’entreprises</li>
-                            <li>Recherche de financements (Equity et dette), subventions</li>
-                            <li>Sélection de partenaires financiers et négociations des conditions financières</li>
-                            <li>Préparation et Présentation de dossiers aux investisseurs (privés et institutionnels), fonds d’investissements et banques</li>
-                          </ul>
-                        </div>
-                    </div>
+                <div class=" col-12 col-md-5 col-lg-7 text-justify align-items-center d-flex justify-content-sm-center" style="background-image: url(./img/bg-section-2.jpg);background-size: cover;background-repeat:no-repeat;
+;height: 100vh;position: relative;">
+                  <div class="overlay" style="filter: grayscale(1);height: 100%;width: 100%;position: absolute; bottom: 0; top: 0;"></div>
+                  <div class="content__left">
+                    <p>Nous accompagnons les entreprises privées, les organismes publics et les projets dans toutes les étapes de leurs opérations capitalistiques et financières.</p> <br>
+                    <p>
+                    <b>Notre objectif</b><br>Vous permettre de réaliser votre projet ! Nous concevons des montages sur mesure et déployons nos expertises en Audit, conseil, structuration de projet et Mobilisation de ressources pour accompagner vos projets, de l’idée à la réalisation.</p>
+                  </div>
                 </div>
-                <div class="offset-lg-6 col-md-6 col-lg-6 ">
-                    <div class="mx-auto service-box mt-5">
-                      <h4 class="mb-5 mt-5 "style="color: #0191ff;">Ingénierie financière et Conseil</h4>
-                        <div>
-                          <ul>
-                            <li>Montage d’opérations financières</li>
-                            <li>Conseil dans la réalisation et la présentation de plans d’affaires et de plans de financements</li>
-                            <li>Conseil et structuration d’opérations de financement</li>
-                            <li>Rédaction de Plans de développement et des notes d’opérations</li>
-                            <li>L’évaluation d’entreprises</li>
-                          </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-6 ">
-                    <div class="mx-auto service-box mt-5">
-                      <h4 class="mb-5 mt-5 "style="color:  #ff0f0f;">Conception et structuration de projet<br></h4>
-                        <div>
-                          <ul>
-                            <li>Structuration et Financement de projets en Partenariat Public Privé</li>
-                            <li>Conseil et Accompagnement d’organismes publics, d’ONG et d’associations</li>
-                          </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="offset-lg-6 col-md-6 col-lg-6 ">
-                    <div class="mx-auto service-box mt-5">
-                      <h4 class="mb-5 mt-5 "style="color:  #888888;">Missions opérationnelles</h4>
-                        <div>
-                          <ul>
-                            <li>Direction financière à temps partagé</li>
-                            <li>Renfort temporaire ou appui technique</li>
-                            <li>Intervention dans le contexte d’un besoin ponctuel</li>
-                            <li>Audit et Conseil financier aux entreprises</li>
-                          </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
- <section id="team" class="" style="background-image: url('./assets/img/hero_overlay.png');">
-        <div class="container" >
-          <div class="row ">
-            <div class="col-12 mx-auto">
-              <h2 class="section-heading mt-5 mb-5" style="color: #acacac;">L'EQUIPE </h2>
-            </div>
+              </div>
+          </div>        
+      </section>
+      <section id="activity" class="text-white" style=" background-image: url(./img/bg-section-1.jpg);background-size: cover;background-repeat: no-repeat; position: relative;width: 100%">
+        <div class="overlay" style="height: 100%;background-color: #030032; opacity: 0.75;position: absolute; top: 0; width: 100%"></div>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 mx-auto">
+                <h2 class="text-white section-heading mt-5 mb-5" style="color: #acacac;">NOS ACTIVITES </h2>
+              </div>
+              </div>
+              <div class="row  activities text-justify">
+                  <div class="col-md-6 col-lg-6 ">
+                      <div class="mx-auto service-box mt-5">
+                        <h4 class="mb-5 mt-5" ><b style="color: #ff2c40;">Levées de fonds et financements</b><br></h4>
+                          <div>
+                            <ul>
+                              <li>Accompagnement dans le processus de levée de fonds, d’ouverture ou de réorganisation du capital</li>
+                              <li>Accompagnement dans le processus d’acquisition, de cession ou rapprochement d’entreprises</li>
+                              <li>Recherche de financements (Equity et dette), subventions</li>
+                              <li>Sélection de partenaires financiers et négociations des conditions financières</li>
+                              <li>Préparation et Présentation de dossiers aux investisseurs (privés et institutionnels), fonds d’investissements et banques</li>
+                            </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6 ">
+                      <div class="mx-auto service-box mt-5">
+                        <h4 class="mb-5 mt-5" ><b>Ingénierie financière et Conseil</b></h4>
+                          <div>
+                            <ul>
+                              <li>Montage d’opérations financières</li>
+                              <li>Conseil dans la réalisation et la présentation de plans d’affaires et de plans de financements</li>
+                              <li>Conseil et structuration d’opérations de financement</li>
+                              <li>Rédaction de Plans de développement et des notes d’opérations</li>
+                              <li>L’évaluation d’entreprises</li>
+                            </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-lg-6 ">
+                      <div class="mx-auto service-box mt-5">
+                        <h4 class="mb-5 mt-5 "><b>Conception et structuration de projet</b><br></h4>
+                          <div>
+                            <ul>
+                              <li>Structuration et Financement de projets en Partenariat Public Privé</li>
+                              <li>Conseil et Accompagnement d’organismes publics, d’ONG et d’associations</li>
+                            </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6 ">
+                      <div class="mx-auto service-box mt-5">
+                        <h4 class="mb-5 mt-5 "><b style="color: #ff2c40;">Missions opérationnelles</b></h4>
+                          <div>
+                            <ul>
+                              <li>Direction financière à temps partagé</li>
+                              <li>Renfort temporaire ou appui technique</li>
+                              <li>Intervention dans le contexte d’un besoin ponctuel</li>
+                              <li>Audit et Conseil financier aux entreprises</li>
+                            </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="row align-items-center justify-content-around mt-4 m-auto">
-              <div class="col-md-5 text-center">
+      </section>
+      <section id="team" class="" style="background-image: url('./assets/img/hero_overlay.png');">
+          <div class="container" >
+            <div class="row ">
+              <div class="col-12 mx-auto">
+                <h2 class="section-heading mt-5 mb-5" style="color: #acacac;">L'EQUIPE </h2>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-around mt-4 m-auto">
+                <div class="col-md-5 text-center">
                   <div>
                     <img class="img-fluid team-profile" style="" src="./img/team.png">
                   </div>
                   <div class="team-content-wrapper">
-                   <div class="team-content">
-                    <h4 class=""><strong>M. Amen NYASSOGBO</strong></h4>
-                    <span class="pb-5"><strong>Directeur Général</strong></span><br>
+                     <div class="team-content">
+                      <h4 class=""><strong>M. Amen NYASSOGBO</strong></h4>
+                      <span class="pb-5"><strong>Directeur Général</strong></span><br>
 
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#team1">En savoir plus
-                    </button>
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#team1">En savoir plus
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!-- Modal Team 1-->
-                <div class="modal fade" id="team1" tabindex="-1" role="dialog" aria-labelledby="team1" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <!-- <h5 class="modal-title" id="team1">Modal title</h5> -->
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="row">
-                          <div class="col-12 col-md-4">
-                             <div>
-                                <img class="img-fluid team-profile" style="" src="./img/team.png">
-                              </div>
-                          </div>
-                          <div class="col-12 col-md-8">
-                            <p>Il  possède 12 années d’expériences professionnelles acquises au sein de grands groupes bancaires français (BPCE et Crédit Agricole) Il est notamment diplômé de la Faculté de Finance Banque Comptabilité de l’Université de Lille 2 (Master Banque Finance) ainsi que l’Institut d’Etudes Politiques Sciences Po Paris (Master Politiques et Management)
-                            </p>
+                <!-- Modal Team 1-->
+                  <div class="modal fade" id="team1" tabindex="-1" role="dialog" aria-labelledby="team1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <!-- <h5 class="modal-title" id="team1">Modal title</h5> -->
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-12 col-md-4 justify-content-sm-center">
+                               <div>
+                                  <img class="img-fluid team-profile" style="" src="./img/team.png">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-8 text-justify mt-4">
+                              <p>Il  possède 12 années d’expériences professionnelles acquises au sein de grands groupes bancaires français (BPCE et Crédit Agricole) Il est notamment diplômé de la Faculté de Finance Banque Comptabilité de l’Université de Lille 2 (Master Banque Finance) ainsi que l’Institut d’Etudes Politiques Sciences Po Paris (Master Politiques et Management).
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-5 text-center">
-                  <div>
-                    <img class="img-fluid team-profile" style="" src="./img/team2.png">
-                  </div>
-                  <div class="team-content-wrapper">
-                   <div class="team-content">
-                    <h4 class=""><strong>M. Cila LAWSON-HOGBAN</strong></h4>
-                    <span class="pb-5"><strong>Directeur Exécutif</strong></span><br>
-
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#team2">En savoir plus
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Modal Team 1-->
-                <div class="modal fade" id="team2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="row">
-                          <div class="col-12 col-md-4">
-                             <div>
-                                <img class="img-fluid team-profile" style="" src="./img/team2.png">
-                              </div>
-                          </div>
-                          <div class="col-12 col-md-8">
-                            <p>Titulaire d’un diplôme d’ingénieur de l’USTL, il a effectué  une carrière internationale au sein de grands groupes tels que Siemens et Nokia pour lesquels il a piloté et mis en place des projets d’infrastructures et programmes. Il est également diplômé de Sciences Po Paris (Business administration & Leadership) et de la Nelson Mandela School of Public Governance de l’Université de Cape Town (Gouvernance publique).
-                            </p>
-                          </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
                         </div>
                       </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-5 text-center">
-                  <div>
-                    <img class="img-fluid team-profile" style="" src="./img/team3.jpg">
-                  </div>
-                  <div class="team-content-wrapper">
-                   <div class="team-content">
-                    <h4 class=""><strong>M BISSOUMBOU Roger</strong></h4>
-                    <span class="pb-5"><strong>Analyste</strong></span><br>
 
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#team3">En savoir plus
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Modal Team 3-->
-                <div class="modal fade" id="team3" tabindex="-1" role="dialog" aria-labelledby="team3ModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="row">
-                          <div class="col-12 col-md-4">
-                             <div>
-                                <img class="img-fluid team-profile" style="" src="./img/team3.jpg">
-                              </div>
-                          </div>
-                          <div class="col-12 col-md-8">
-                            <p>Titulaire d’un Master Banque finance de l’ITNDE de Lomé, Roger a rejoint KAN Conseil en tant qu’Analyste Financier Junior après avoir effectué son stage de fin d’études au sein du cabinet d’Audit et d’Expertises Comptables KONNY Afrique.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-5 text-center">
-                  <div>
-                    <img class="img-fluid team-profile" style="" src="./img/team4.jpg">
-                  </div>
-                  <div class="team-content-wrapper">
-                   <div class="team-content">
-                    <h4 class=""><strong>Faustine DOMANCHIN</strong></h4>
-                    <span class="pb-5"><strong>Office Manager </strong></span><br>
-                  </div>
-                </div>
-              </div>        
-          </div>
-        </div>
-    </section>  
-    <section id="contact" class="mt-5" style="background: #C8C8C8">
-        <div class="container">
-            <div class="row">
-                <h2 class="section-heading mt-4 mb-4">CONTACT</h2>             
-            </div>
-            <div class="row d-flex justify-content-around">
-                <div class="col col-md-6 justify-content-center">
-                    <div class="mt-5 mb-5">
-                        <img src="./img/logo/kan_logo_grey.png">   
-                    </div>
+                  <div class="col-md-5 text-center">
                     <div>
-                        <span>
-                          <a href="mailto:contact@kan-conseil.com">contact@kan-conseil.com</a> 
-                        </span>
+                      <img class="img-fluid team-profile" style="" src="./img/team2.png">
                     </div>
-                    <div class="d-flex justify-content-start item social">
-                        <a class="social-link"href="https://www.facebook.com/afribills/"><i class="fa fa-facebook"></i></a>
-                        <a class="social-link"href="https://www.facebook.com/afribills/"><i class="fa fa-twitter"></i></a>
-                        <a class="social-link"href="https://www.facebook.com/afribills/"><i class="fa fa-linkedin"></i></a>
+                    <div class="team-content-wrapper">
+                     <div class="team-content">
+                      <h4 class=""><strong>M. Cila LAWSON-HOGBAN</strong></h4>
+                      <span class="pb-5"><strong>Directeur Exécutif</strong></span><br>
+
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#team2">En savoir plus
+                      </button>
                     </div>
+                  </div>
                 </div>
-                <div class="col-md-5">
-                    <form method="post">
-                        <h4 class="mb-5">Un Besoin ? Laissez nous un message</h4>
-                        <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Nom Complet"></div>
-                        <div class="form-group"><input class="form-control " type="email" name="email" placeholder="Email"><small class="form-text text-danger">Entrez une adresse mail valide.</small></div>
-                        <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="5"></textarea></div>
-                        <div class="form-group"><button class="btn btn-success" type="submit">Envoyer </button></div>
-                    </form>
+                <!-- Modal Team 1-->
+                  <div class="modal fade" id="team2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-12 col-md-4 justify-content-sm-center">
+                               <div>
+                                  <img class="img-fluid team-profile" style="" src="./img/team2.png">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-8 text-justify mt-4">
+                              <p>Titulaire d’un diplôme d’ingénieur de l’Université de Lille 1, il a effectué  une carrière internationale au sein de grands groupes tels que Siemens et Nokia pour lesquels il a piloté et mis en place des projets d’infrastructures et programmes. Il est également diplômé de Sciences Po Paris(Business administration & Leadership) et de la Nelson Mandela School of Public Governance de l’Université de Cape Town (Gouvernance publique).
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 text-center">
+                    <div>
+                      <img class="img-fluid team-profile" style="" src="./img/team3.jpg">
+                    </div>
+                    <div class="team-content-wrapper">
+                     <div class="team-content">
+                      <h4 class=""><strong>M BISSOUMBOU Roger</strong></h4>
+                      <span class="pb-5"><strong>Analyste Financier</strong></span><br>
+
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#team3">En savoir plus
+                      </button>
+                    </div>
+                  </div>
                 </div>
+                <!-- Modal Team 3-->
+                  <div class="modal fade" id="team3" tabindex="-1" role="dialog" aria-labelledby="team3ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-12 col-md-4 justify-content-sm-center">
+                               <div>
+                                  <img class="img-fluid team-profile" style="" src="./img/team3.jpg">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-8 text-justify mt-4">
+                              <p>Titulaire d’un Master Banque finance de l’ITNDE de Lomé, Roger a rejoint KAN Conseil en tant qu’Analyste Financier Junior après avoir effectué son stage de fin d’études au sein du cabinet d’Audit et d’Expertises Comptables KONNY Afrique.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 text-center">
+                    <div>
+                      <img class="img-fluid team-profile" style="" src="./img/team4.jpg">
+                    </div>
+                    <div class="team-content-wrapper">
+                     <div class="team-content">
+                      <h4 class=""><strong>Faustine DOMANCHIN</strong></h4>
+                      <span class="pb-5"><strong>Office Manager </strong></span><br>
+                    </div>
+                  </div>
+                </div>        
             </div>
-        </div>
-    </section>
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                  <div class="col">
-                    <p class="copyright text-center">KAN CONSEIL © 2019 | Designed by <a href="">Tony Ames</a></p>
-                  </div>  
-                </div>    
-            </div>
-        </footer>
-    </div>
+          </div>
+      </section>
+    </main> 
+    <footer class="footer-dark">
+      <div id="contact" class="container ">
+          <div class="row">
+              <h2 class="section-heading mt-4 mb-4">CONTACT</h2>             
+          </div>
+          <div class="row d-flex justify-content-around">
+              <div  class="col col-md-6 justify-content-center">
+                  <div class="mt-5 mb-5">
+                      <img width="150" src="./img/logo/kan_logo_red.png">   
+                  </div>
+                  <div>
+                      <span>
+                        <a href="mailto:contact@kan-conseil.com">contact@kan-conseil.com</a> 
+                      </span>
+                  </div>
+                  <div class="d-flex justify-content-start item social pt-4">
+                      <a class="social-link"href="https://www.facebook.com/afribills/"><i class="fa fa-facebook"></i></a>
+                      <a class="social-link"href="https://www.facebook.com/afribills/"><i class="fa fa-twitter"></i></a>
+                      <a class="social-link"href="https://www.facebook.com/afribills/"><i class="fa fa-linkedin"></i></a>
+                  </div>
+              </div>
+              <div class="col-md-5">
+                  <form method="post">
+                      <h4 class="mb-5">Un Besoin ? Laissez nous un message</h4>
+                      <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Nom Complet"></div>
+                      <div class="form-group"><input class="form-control " type="email" name="email" placeholder="Email"><small class="form-text text-danger">Entrez une adresse mail valide.</small></div>
+                      <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="5"></textarea></div>
+                      <div class="form-group"><button class="btn btn-danger" type="submit">Envoyer </button></div>
+                  </form>
+              </div>
+          </div>             
+          <div class="row">
+            <div class="col">
+              <p class="copyright text-center">KAN CONSEIL © 2019 | Designed by <a href="">Tony Ames</a></p>
+            </div>  
+          </div>    
+      </div>
+    </footer>
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
