@@ -52,10 +52,10 @@ section {
 	align-items: center;
 	flex-direction: column;
 	width: 60%;
-	background-color: #dc3545;
+	background-color: #b10e1e;
 	padding: 1.5em;
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.10em;
 
 }
 
@@ -176,10 +176,34 @@ section {
 	color: #00B65B;
 }*/
 
- .activities .service-box:nth-child(2) h4 {
+
+/*Activity section*/
+.activities {
+
+ 	padding-top: 2rem;
+ 	padding-bottom: 2rem;
+ 	align-items: center;
+}
+
+.activities ul {
+
+	list-style: none;
+}
+
+.activities .service-box:nth-child(2) h4 {
 
 	color: red;
 }
+.activity_headind__wrap {
+
+	min-height: 300px;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+}
+
 
 
 .team-profile {
@@ -255,7 +279,7 @@ section {
 	}
 	.slick-list {
 
-		width: 300px;
+		width: 305px;
 	}
 	#about .content__left {
 		width: 100%;

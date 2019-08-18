@@ -28,7 +28,7 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 120) {
+    if ($("#mainNav").offset().top > 30) {
       $("#mainNav").removeClass("mt-4");
       $("#mainNav").addClass("navbar-shrink");
       $("#mainNav .navbar-brand img").attr("src","./img/logo/kan_logo_grey.png")
