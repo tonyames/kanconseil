@@ -20,7 +20,7 @@ h2::before{
     height: 40px;
     /*margin-right: 10px;*/
     color: transparent;
-    background: #dc3545; /*#ff1f1fbd*/
+    background: #b41919; /*#ff1f1fbd*/
     position: relative;
     left: 0px;
     top: 8px;
@@ -58,11 +58,18 @@ section {
 	font-size: 1.2em;
 
 }
-/*
- .overlay {
+
+ #about .overlay {
 	position: relative;
+	filter: grayscale(1);height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
 }
 
+/*
 .overlay::before {
 
 	background-image: url(../img/bg-section-1.jpg);
@@ -244,11 +251,11 @@ section {
 
 	#hero-headings h2 {
 
-		font-size: 2.0em !important;
+		font-size: 2em !important;
 	}
 	.slick-list {
 
-		width: 320px;
+		width: 300px;
 	}
 	#about .content__left {
 		width: 100%;
