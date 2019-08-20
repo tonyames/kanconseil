@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="fonts/fontawesome-all.min.css">
   <link rel="stylesheet" href="fonts/font-awesome.min.css">
   <link rel="stylesheet" href="./vendor/slick-1.8.1/slick.css">
-
+  <link rel="stylesheet" href="vendor/animate/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <meta name="theme-color" content="#fafafa">
 </head>
   <!--[if IE]>
@@ -64,16 +65,20 @@
           <div class="container-fluid text-dark">
               <div class="row justify-content-between">
                 <div class="col-12 col-md-6 col-lg-4 offset-md-1 align-items-center d-flex flex-column">
-                  <h2 class="section-heading mt-5 mb-5 pt-5">QUI SOMMES NOUS ?</h2>
+                  <div data-aos="fade-up">
+                     <h2 class="section-heading mt-5 mb-5 pt-5">QUI SOMMES NOUS ?</h2>
                     <p class="top-heading  text-justify pr-4">Kan Conseil est un Cabinet spécialisé dans l’ingénierie financière des PME et la structuration financière des projets (Privé, Public et PPP)<br><br>
                     </p> 
+                  </div>
                 </div>
-                <div class=" col-12 col-md-5 col-lg-6 text-justify align-items-center d-flex justify-content-center" style="background-image: url(./img/bg-section-1.jpg);background-size: cover;background-repeat:no-repeat;;height: 100vh;position: relative;">
-                  <div class="overlay" style=""></div>
-                  <div class="content__left">
-                    <p>Nous accompagnons les entreprises privées, les organismes publics et les projets dans toutes les étapes de leurs opérations capitalistiques et financières.</p> <br>
+                <div class=" col-12 col-md-5 col-lg-6 text-justify align-items-center d-flex justify-content-center" style="background-size: cover;background-repeat:no-repeat;height: 100vh;position: relative;">
+                  <img class="img-fluid" style="height: 100vh;position: absolute;" src="./img/bg-section-1.jpg">
+                  <div class="content__left animated fadeInRight">
+                    <p>Nous accompagnons les entreprises privées, les organismes publics et les projets dans toutes les étapes de leurs opérations capitalistiques et financières.</p>
                     <p>
-                    <b>Notre objectif</b><br><br>Vous permettre de réaliser votre projet ! Nous concevons des montages sur mesure et déployons nos expertises en Audit, conseil, structuration de projet et Mobilisation de ressources pour accompagner vos projets, de l’idée à la réalisation.</p>
+                      <b>Notre objectif</b><br><br>
+                      Vous permettre de réaliser votre projet ! Nous concevons des montages sur mesure et déployons nos expertises en Audit, conseil, structuration de projet et Mobilisation de ressources pour accompagner vos projets, de l’idée à la réalisation.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -88,9 +93,9 @@
               </div>
             </div>
             <div class="row  activities justify-content-around">
-              <div class=" col-12 col-md-4 col-lg-4">
-                  <div class="mx-auto service-box mt-5 text-center activity_headind__wrap" style="background-color: #BD0404">
-                    <h4 class="" ><b style="color: #ffffff;">Levées de fonds <br> & <br> financements</b><br></h4>   
+              <div class=" col-12 col-md-3 col-lg-3 slideInUp">
+                  <div data-aos="fade-up" class="mx-auto service-box mt-5 text-center activity_headind__wrap" style="background-color: #BD0404">
+                    <h4 class="" ><b style="color: #ffffff;">Levées de fonds <br> & <br> Financements</b><br></h4>   
                   </div>
               </div>
               <div class="col-12 col-md-6 col-lg-6" style=" color: #737373; border-right:5px solid red; ">
@@ -108,8 +113,8 @@
               </div>
             </div>
             <div class="row  activities justify-content-around">
-                  <div class="col-md-6 col-lg-6 order-xs-2" style="border-left:5px solid #383838;">
-                      <div class="mx-auto service-box mt-5">
+                  <div class="col-md-6 col-lg-6 order-2 order-md-1">
+                      <div class="mx-auto service-box mt-5"  style="border-left:5px solid #383838;">
                           <div>
                             <ul>
                               <li>Montage d’opérations financières</li>
@@ -121,15 +126,15 @@
                           </div>
                       </div>
                   </div>
-                  <div class=" col-12 col-md-4 col-lg-4 order-xs-1">
-                      <div class="mx-auto service-box mt-5 text-center activity_headind__wrap" style="background-color: #383838;">
+                  <div class=" col-12 col-md-3 col-lg-3 order-1">
+                      <div data-aos="fade-up" class="mx-auto service-box mt-5 text-center activity_headind__wrap" style="background-color: #383838;">
                         <h4 class="" ><b style="color: #ffffff;">Ingénierie financière<br>&<br> Conseil</b><br></h4>   
                       </div>
                   </div>
             </div>
             <div class="row  activities justify-content-around">
-              <div class=" col-12 col-md-4 col-lg-4" >
-                  <div class="mx-auto service-box mt-5 text-center activity_headind__wrap" style="background-color: #BD0404">
+              <div class=" col-12 col-md-3 col-lg-3" >
+                  <div data-aos="fade-up" class="mx-auto service-box mt-5 text-center activity_headind__wrap" style="background-color: #BD0404">
                     <h4 class="" ><b style="color: #ffffff;">Conception<br>&<br>structuration de projet</b><br></h4>   
                   </div>
               </div>
@@ -145,8 +150,8 @@
               </div>
             </div>
             <div class="row  activities justify-content-around">
-                <div class="col-md-6 col-lg-6 order-xs-2" style="border-left:5px solid #383838;">
-                    <div class="mx-auto service-box mt-5">
+                <div class="col-md-6 col-lg-6 order-2 order-md-1" >
+                    <div class="mx-auto service-box mt-5" style="border-right:5px solid #383838;">
                         <div>
                           <ul>
                             <li>Direction financière à temps partagé</li>
@@ -157,8 +162,8 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-12 col-md-4 col-lg-4 order-xs-1" >
-                    <div class="mx-auto service-box mt-5 text-center activity_headind__wrap" style="background-color: #383838">
+                <div class=" col-12 col-md-3 col-lg-3 order-1 order-md-2" >
+                    <div data-aos="fade-up" class="mx-auto service-box mt-5 text-center activity_headind__wrap" style="background-color: #383838">
                       <h4 class="" ><b style="color: #ffffff;">Missions opérationnelles</b><br></h4>   
                     </div>
                 </div>
@@ -311,9 +316,40 @@
                      <div class="team-content">
                       <h4 class=""><strong>Faustine DOMANCHIN</strong></h4>
                       <span class="pb-5"><strong>Office Manager </strong></span><br>
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#team3">En savoir plus
+                      </button>
                     </div>
                   </div>
-                </div>        
+                </div>
+                <!-- Modal Team 4-->
+                  <div class="modal fade" id="team3" tabindex="-1" role="dialog" aria-labelledby="team3ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-12 col-md-4 justify-content-sm-center">
+                               <div>
+                                  <img class="img-fluid team-profile" style="" src="./img/team3.jpg">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-8 text-justify mt-4">
+                              <p>to add 
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>        
             </div>
           </div>
       </section>
@@ -381,6 +417,7 @@
         autoplay:true,
         vertical:true,
         arrows:false,
+        speed:100,
         
       });  
     </script>
